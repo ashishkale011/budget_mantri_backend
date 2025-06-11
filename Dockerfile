@@ -19,4 +19,4 @@ COPY src ./src
 RUN ./mvnw package -DskipTests
 
 # Run the application
-CMD ["java", "-jar", "target/budget_mantri_backend-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/backend-0.0.1-SNAPSHOT.jar"]
